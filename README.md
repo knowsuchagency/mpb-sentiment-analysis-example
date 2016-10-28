@@ -4,6 +4,7 @@ Toying around with reddit and textblob to get data and perform sentiment analysi
 [![Binder](http://mybinder.org/badge.svg)](http://mybinder.org:/repo/knowsuchagency/mpb-sentiment-analysis-example)
 
 
+
 ## What does Reddit think about the new MBP?
 ### Is it da bomb, or did it just bomb?
 
@@ -312,6 +313,8 @@ bigger_blob.sentiment
     Sentiment(polarity=0.07565960941292733, subjectivity=0.52062214346886)
 
 
+
+We see that overall, the overall sentiment is much more positive when we include a larger body of comments.
 
 ## In conclusion
 
