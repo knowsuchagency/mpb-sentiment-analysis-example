@@ -314,7 +314,7 @@ bigger_blob.sentiment
 
 
 
-We see that overall, the overall sentiment is much more positive when we include a larger body of comments.
+We see that the overall sentiment is much more positive when we include a larger body of comments.
 
 ## In conclusion
 
