@@ -192,23 +192,11 @@ from textblob import TextBlob
 comment_blob = TextBlob(''.join(comments))
 ```
 
-    /Users/stephanfitzpatrick/.pyenv/versions/3.5.1/envs/py35/lib/python3.5/site-packages/nltk/decorators.py:59: DeprecationWarning: inspect.getargspec() is deprecated, use inspect.signature() instead
-      regargs, varargs, varkwargs, defaults = inspect.getargspec(func)
-
-
 
 
 
     Sentiment(polarity=-0.06283927712499143, subjectivity=0.5978612657184086)
 
-
-
-
-```python
-print(comment_blob.sentiment)
-```
-
-    Sentiment(polarity=-0.06283927712499143, subjectivity=0.5978612657184086)
 
 
 Huh, things aren't looking good so far. Well, let's look at more data.
